@@ -12,9 +12,6 @@ import Footer from "../Components/Footer";
 import { useNavigate } from "react-router-dom";
 import SlideBar from "../NavBar/SlideBar";
 
-// --- Animation Variants (Reused for consistency) ---
-
-// Container animation for sequential item rollout
 const containerVariants = {
   hidden: { opacity: 0 },
   visible: {
